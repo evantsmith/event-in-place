@@ -1,0 +1,14 @@
+.hidden {
+    display: none;
+}
+input, p {
+    font-family: serif;
+    font-size: 16px;
+    margin: 0;
+
+}
+p {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
