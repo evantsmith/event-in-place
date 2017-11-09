@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./edit-in-place.css">
-        <title>Edit In-place</title>
+        <link rel="stylesheet" href="/edit-in-place.css">
+        <title></title>
     </head>
     <body>
+        <h1>User Profile</h1>
+        <h2 class="name">Name</h2>
         <div class="editable-in-place">
-            <p>Text Box</p>
-            <input class="hidden">
+            <p id="textbox">Text Box</p>
+            <input id="input" class="hidden">
+        </div>
+        <h2 class="about">About</h2>
+        <div class="editable-in-place-2">
+            <p class="text-box-2">Another Text Box</p>
+            <textarea class="TA"></textarea>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-        <script src="./edit-in-place.js"></script>
+        <script src="/edit-in-place.js"></script>
     </body>
 </html>

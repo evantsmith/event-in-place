@@ -16,4 +16,11 @@ $(document).ready(function(){
         $(thePar).text($(event.target).val());
         $(thePar).removeClass('hidden');
     });
-})
+
+    $('.editable-in-place-2 .text-box-2 .TA').on('click', function(event){
+        $(event.target).hide();
+        var textArea = $(event.target).siblings();
+        textArea.show();
+
+    });
+});
